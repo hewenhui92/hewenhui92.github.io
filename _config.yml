@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Michael Ho's Technology Blog
+subtitle: '知行合一'
+description: 'my personal blog'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Michael Ho
+language: en-US
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://github.com/hewenhui92
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,4 +98,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:hewenhui92/hewenhui92.github.io.git
+  branch: master
